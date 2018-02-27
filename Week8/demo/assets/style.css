@@ -1,0 +1,67 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+}
+
+.nav-bar {
+	display: flex;
+	justify-content: space-around;
+}
+
+.tab-button,
+.step {
+	font-size: 1rem;
+	min-width: 80px;
+	height: 35px;
+	background-color: blue;
+	border-radius: 5px;
+	border-color: blue;
+	margin: 20px 15px;
+}
+
+.tab-button:hover,
+.step:hover {
+	background-color: #9999DD;
+}
+
+.display {
+	background-color: #33AA33;
+}
+
+.container {
+	width: 80%;
+	height: 80vh;
+	overflow: scroll;
+	margin: auto;
+	background-color: #3333AA;
+	display: none;
+}
+
+.active.container {
+	display: block;
+}
+
+.box {
+	width: 31%;
+	height: 100px;
+	margin: 20px 1.15%;
+	background-color: red;
+}
+
+.last {
+	width: 80%;
+	margin: auto;
+	height: 100px;
+	background-color: purple;
+}
+
+.box.advance-position {
+	left: 100px;
+	top: 100px;
+	background-color: purple;
+}
+
+.display.advance-position {
+	position: relative;
+}

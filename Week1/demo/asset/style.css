@@ -1,0 +1,7 @@
+p{
+	margin-left: 30px;
+}
+
+.myParentClass .myFirstClass {
+	color: red;
+}
